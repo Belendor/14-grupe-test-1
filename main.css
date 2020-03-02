@@ -4,9 +4,26 @@ body{
     div{
         background-color: red;
     }
-        /* h1{
+        h1{
 
         }
         p{
+            display: inline;
+            margin-right: 10px;
+        }
+
+        p:first-of-type{
             text-decoration: line-through;
-        } */
+            text-transform: uppercase;
+            font-weight : bold;
+        }
+        p:nth-of-type(2){
+            text-decoration: line-through;
+        }
+        p:nth-of-type(3){
+            text-transform: uppercase;
+        }
+        p:nth-of-type(4){
+            font-weight : bold;
+        }
+        
